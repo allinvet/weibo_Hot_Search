@@ -53,7 +53,7 @@ for tr in (data):
     else:
         with open(path,'a') as f:
 
-            f.write('{} {} {}\n\n'.format('###',num,title[0]))
+            f.write('{} {}、{}\n\n'.format('###',num,title[0]))
             f.write('{} {}\n\n'.format('微博当时热度为：',hot_score[0]))
          
         f.close()
